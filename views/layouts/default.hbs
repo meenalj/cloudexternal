@@ -8,12 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 <body>
+  <div class="text-center">
+        <marquee style="background-color:powderblue;"><h1 style="color:blue;">Welcome to Cloud Titans's application</h1></marquee>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <p><i>This is a page for all fun events you can attend!</i></p>
+  </div>
   <div>
-      <h1>Welcome to Cloud Titans's application</h1>
-    {{{body}}}
+     <h2 style="color: teal; font-size: 100%;" >
+      {{{body}}}
+     </h2>
+  </div>
 </div>
 <div>
-  <h2>Add an event</h2>
+  <h3 style="color:grey;font-size:100%;background-color:powderblue;margin: 30px;"><b>Add an event</b></h3>
     <form action="/event" method="post">
        title: <input name="title" type="text" /> <br />
        description: <input name="description" type="text" /> <br />
